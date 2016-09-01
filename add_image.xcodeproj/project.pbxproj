@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710913F31D78194800D0EAF7 /* Images+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710913F11D78194800D0EAF7 /* Images+CoreDataProperties.swift */; };
+		710913F41D78194800D0EAF7 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710913F21D78194800D0EAF7 /* Images.swift */; };
 		716041831D774F7700820B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716041821D774F7700820B44 /* AppDelegate.swift */; };
 		716041851D774F7700820B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716041841D774F7700820B44 /* ViewController.swift */; };
 		716041881D774F7700820B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716041861D774F7700820B44 /* Main.storyboard */; };
 		7160418B1D774F7700820B44 /* add_image.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 716041891D774F7700820B44 /* add_image.xcdatamodeld */; };
 		7160418D1D774F7700820B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7160418C1D774F7700820B44 /* Assets.xcassets */; };
 		716041901D774F7700820B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7160418E1D774F7700820B44 /* LaunchScreen.storyboard */; };
+		716041991D77529800820B44 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716041971D77529800820B44 /* ImageViewCell.swift */; };
+		7160419A1D77529800820B44 /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716041981D77529800820B44 /* ImageViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		710913F11D78194800D0EAF7 /* Images+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		710913F21D78194800D0EAF7 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		7160417F1D774F7700820B44 /* add_image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = add_image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716041821D774F7700820B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		716041841D774F7700820B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		7160418C1D774F7700820B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7160418F1D774F7700820B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716041911D774F7700820B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716041971D77529800820B44 /* ImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		716041981D77529800820B44 /* ImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		716041761D774F7700820B44 = {
 			isa = PBXGroup;
 			children = (
+				710913F11D78194800D0EAF7 /* Images+CoreDataProperties.swift */,
+				710913F21D78194800D0EAF7 /* Images.swift */,
 				716041811D774F7700820B44 /* add_image */,
 				716041801D774F7700820B44 /* Products */,
 			);
@@ -63,6 +73,8 @@
 				7160418E1D774F7700820B44 /* LaunchScreen.storyboard */,
 				716041911D774F7700820B44 /* Info.plist */,
 				716041891D774F7700820B44 /* add_image.xcdatamodeld */,
+				716041971D77529800820B44 /* ImageViewCell.swift */,
+				716041981D77529800820B44 /* ImageViewCell.xib */,
 			);
 			path = add_image;
 			sourceTree = "<group>";
@@ -99,6 +111,7 @@
 				TargetAttributes = {
 					7160417E1D774F7700820B44 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 89ZGG9R768;
 					};
 				};
 			};
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7160419A1D77529800820B44 /* ImageViewCell.xib in Resources */,
 				716041901D774F7700820B44 /* LaunchScreen.storyboard in Resources */,
 				7160418D1D774F7700820B44 /* Assets.xcassets in Resources */,
 				716041881D774F7700820B44 /* Main.storyboard in Resources */,
@@ -138,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716041991D77529800820B44 /* ImageViewCell.swift in Sources */,
+				710913F41D78194800D0EAF7 /* Images.swift in Sources */,
 				7160418B1D774F7700820B44 /* add_image.xcdatamodeld in Sources */,
+				710913F31D78194800D0EAF7 /* Images+CoreDataProperties.swift in Sources */,
 				716041851D774F7700820B44 /* ViewController.swift in Sources */,
 				716041831D774F7700820B44 /* AppDelegate.swift in Sources */,
 			);
@@ -253,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = add_image/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "North.add-image";
@@ -264,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = add_image/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "North.add-image";
@@ -290,6 +309,7 @@
 				716041961D774F7700820B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
